@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Folder containing WAV files
 input_folder = Path("input_wavs")
-output_folder = Path("output_wavs")
+output_folder = Path.home() / "Desktop" / "output_wavs"
 output_folder.mkdir(exist_ok=True)
 
 # Process each WAV file in folder
