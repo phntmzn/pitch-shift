@@ -5,29 +5,16 @@ from pathlib import Path
 BASE_NAMES = [
     "2u", "midnight drive", "echoes", "neon skies", "slow burn",
     "haze", "fading lights", "static rain", "noir", "pulse",
-    "afterglow", "shadows", "lost in the night", "distant thunder",
-    "synthetic dreams", "deep blue", "fracture", "cold touch", "mirage",
-    "low tide", "ghost signal", "submerge", "lunar phase", "drift",
-    "transmission", "nightfall", "echo chamber",
 ]
 
 ADJECTIVES = list(dict.fromkeys([
     "midnight", "neon", "hollow", "velvet", "crystal", "silver", "shadow",
-    "golden", "deep", "phantom", "cold", "empty", "silent", "electric",
-    "storm", "low", "paper", "burning", "quiet", "broken", "ultraviolet",
-    "moonlit", "frozen", "liquid", "black", "ghost", "nova", "blue", "digital",
-    "white", "gravity", "pale", "cyber", "twilight", "wild", "glass", "lunar",
-    "dream", "parallel", "dawn", "fractured", "lost", "dark", "dust", "soft",
-    "night", "glow", "rain", "fade", "pulse", "drift"
+    "golden", "deep", "phantom", "cold", "empty", "silent", "electric", "storm"
 ]))
 
 NOUNS = list(dict.fromkeys([
     "drive", "echoes", "skies", "burn", "waves", "dreams", "hearts", "city",
-    "rain", "horizons", "tides", "shadowplay", "dusk", "bloom", "loop",
-    "horizon", "streets", "motion", "haze", "stormlight", "tide", "neon",
-    "storm", "mirrors", "light", "lines", "vision", "state", "static", "chrome",
-    "afterglow", "coral", "circuit", "breaker", "lights", "fadeaway", "ember",
-    "noise", "shift", "arcs", "dream", "fields", "nightfall"
+    "rain", "horizons", "tides", "shadowplay", "dusk", "bloom", "loop"
 ]))
 
 
